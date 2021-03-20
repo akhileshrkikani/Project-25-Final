@@ -40,11 +40,12 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
-  keyPressed();
+ 
 
   groundObject.display();
-  paperSprite.display();
   dustbinObj.display();
+  paperSprite.display();
+  
 
 
 
@@ -57,6 +58,6 @@ drawSprites();
 }
 function keyPressed() { 
 	if (keyCode === UP_ARROW) { 
-		Matter.Body.applyForce(paperSprite.body,paperSprite.body.position, {x:10,y:-15}); 
+		Matter.Body.applyForce(paperSprite.body,paperSprite.body.position, {x:220,y:-205}); 
 	}
 	} 
