@@ -51,7 +51,7 @@ class dustbin
 			push()
 			translate(posBottom.x, posBottom.y+10);
 			imageMode(CENTER);
-        image(this.image, 1, -120, 240, 220);
+        image(this.image, 1, -110, 240, 240);
 			strokeWeight(4);
 			angleMode(RADIANS)
 			fill(255)
